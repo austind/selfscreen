@@ -1,0 +1,36 @@
+---
+
+login_params:
+    employeeId: 123456
+    lastName: Doe
+    birthMonth: 1
+    birthDay: 23
+
+assessment_params:
+    extraSiteInfo: None
+    studentContact: False
+    highTemp: False
+    shortnessOfBreath: False
+    cough: False
+    congestion: False
+    chills: False
+    fatigue: False
+    aches: False
+    lossOfTasteOrSmell: False
+    nausea: False
+    diarrhea: False
+    soreThroat: False
+    noCovidSymptoms: True
+    covidTestOrDiagnosed: False
+    actualCovidDiagnosed: False
+    covidContact: False
+    sites:
+        - name: Example Site
+          siteLocationKey: EXAMPLE
+          moreInfo: False
+    screeningSource: 1
+
+selfscreen_domain: example.selfscreening.org
+user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+
+
